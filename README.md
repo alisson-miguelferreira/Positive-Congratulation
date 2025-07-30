@@ -2,7 +2,7 @@
 
 Landing page fictícia e responsiva para uma plataforma de mobilidade urbana, com layout moderno, responsivo e intuitivo.
 
-![Capa do Projeto](./assets/Positive%20Congratulation%20You%20get%2040%20point%20for%20your%20ride.png)
+![Capa do Projeto](./assets/(Positive)%20Congratulation%20You%20get%2040%20point%20for%20your%20ride.png)
 
 ## 📚 Descrição
 
@@ -25,7 +25,7 @@ O **Positive Congratulation** é uma landing page desenvolvida para fins educaci
 
 ## 🌐 Acesse o Projeto Online
 
-➡️ [Clique aqui para visualizar](https://alisson-miguelferreira.github.io/POSITIVE-CONGRATULATION/)
+➡️ [Clique aqui para visualizar](https://alisson-miguelferreira.github.io/Positive-Congratulation/)
 
 ## 📌 Status do Projeto
 
@@ -55,3 +55,8 @@ Este projeto está disponível publicamente apenas para fins de visualização e
 ├── index.html
 ├── style.css
 └── README.md
+
+---
+🤝 Conecte-se comigo
+🔗<a href="https://www.linkedin.com/in/alisson-miguelferreira/">LinkedIn</a>
+🐙 <a href="https://github.com/alisson-miguelferreira">GitHub</a>
