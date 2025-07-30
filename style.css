@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 20px 40px;
+    margin-top: 20px;
+    font-size: 18px; 
+    width: 100%;
+    max-width: 1200px;
+}
+
+.congrats-header {
+    color: #17233D;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+}
+
+.congrats-header:hover {
+    color: #6FBF44;
+}
+
+.button-header {
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    cursor: pointer;
+    line-height: 24px;
+    margin-top: 15px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.button-header:hover {
+    background: #5aad3a;
+    transform: scale(1.02);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    width: 90%;
+    max-width: 600px; 
+    height: auto;
+    margin: 30px 0;
+    display: block;
+}
+
+main > div {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #161A49;
+    font-size: 38px;
+    line-height: 48px;
+    letter-spacing: 0.596154px;
+}
+
+p {
+    color: #4B505A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    margin: 30px 0;
+}
+
+.learn-more {
+    color: #6FBF44;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+.learn-more:hover {
+    color: #4CB538;
+}
+
+/* Telas maiores */
+@media (min-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 47px 42px;
+    }
+
+    .congrats-header {
+        margin-bottom: 0;
+        margin-right: 32px;
+    }
+
+    .button-header {
+        width: 124px;
+        margin-left: 32px;
+        margin-top: 0;
+    }
+
+    main {
+        flex-direction: row;
+        justify-content: center;
+        text-align: left;
+        padding: 50px 20px;
+    }
+
+    img {
+        margin: 0;
+        margin-right: 85px;
+    }
+
+    main > div {
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 52px;
+        line-height: 68px;
+    }
+
+    p {
+        font-size: 17px;
+        line-height: 30px;
+        margin-top: 40px;
+        margin-bottom: 45px;
+    }
+}
+
+@media (min-width: 1024px) {
+    img {
+        margin-top: 80px;
+        margin-left: 123px;
+        margin-right: 0;
+    }
+
+    main > div {
+        margin-left: 85px;
+    }
+
+    h1 {
+        font-size: 62px;
+        line-height: 82px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 33px;
+        margin-top: 47px;
+        margin-bottom: 55px;
+    }
+}
