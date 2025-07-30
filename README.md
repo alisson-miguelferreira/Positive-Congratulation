@@ -25,7 +25,11 @@ O **Positive Congratulation** é uma landing page desenvolvida para fins educaci
 
 ## 🌐 Acesse o Projeto Online
 
+<<<<<<< HEAD
 ➡️ [Clique aqui para visualizar](https://alisson-miguelferreira.github.io/Positive-Congratulation/)
+=======
+➡️ [Clique aqui para visualizar](https://https://alisson-miguelferreira.github.io/Positive-Congratulation/)
+>>>>>>> dbd48053f6499be9233b951e38d1e4cd8764cacd
 
 ## 📌 Status do Projeto
 
